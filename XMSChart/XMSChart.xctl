@@ -1,0 +1,186 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="14008000">
+	<Property Name="EndevoGOOP_ColorFrame" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorHeader" Type="UInt">3838720</Property>
+	<Property Name="EndevoGOOP_ColorPublic" Type="UInt">16448250</Property>
+	<Property Name="EndevoGOOP_ColorTextBody" Type="UInt">0</Property>
+	<Property Name="EndevoGOOP_ColorTextHeader" Type="UInt">16777215</Property>
+	<Property Name="EndevoGOOP_FrameThickness" Type="UInt">1</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*A!!!*Q(C=\&gt;5R&lt;NN!%)8BFS"&amp;7JUABH+%O9+OI"-%G#OI&gt;?&amp;#8?IJW1JQG41K6+9:)#&gt;1FSI&amp;3ROOG*_LM3Q%).5Y1!K47EJ[SZX^2#YIK7U@J1];LGX&gt;\(&lt;:LV/D]E3`WGNGP%\DZ_NXX64^5YX*]&gt;0_=5C^HH^!F7H^[EJW=3D%=X]&lt;I0/B_\N`&gt;PT,`"0^=`YLG^[WNWV_O\W[C0\Z_HKH]5&amp;%3VL1H'9;SQ^*HO2*HO2*HO2"(O2"(O2"(O2/\O2/\O2/\O2'&lt;O2'&lt;O2'&lt;O2N*R?ZS%5/+:E]G3AJGB2)4I;CZ*"Y%E`C34R]6?**0)EH]31?4F(C34S**`%E(I9J]33?R*.Y%A_FGC4&lt;4IYH]6"?A3@Q"*\!%XC95I%H!!34"97$)D!5&gt;!9@!E`A#4R]6/!*0)%H]!1?OB6Y!E`A#4S"BS(NKE44D$MZ(ML)]4A?R_.Y(!_FZ8A=D_.R0)[([?2Y()_$=#:UCE/1-]AZQ@HC?"Q0&lt;X)]DM@R/"\(1V?\1^[OT+A:&gt;X)]BM@Q'"\$9XAI)=.D?!S0Y4%]F*8B-4S'R`!9(K;3Y4%]BM?!'*-SP9RCRE$D*#-Q0,T;;L&amp;WF[**L/V3,6\6IF1N.N5C5CU/V5V8X5T646*&gt;@.6&amp;66UMV561`4A67I624;);0*[IHO/2NK@N;&amp;P;BL;GL7B,WG)=_MIH^HWPY`'I`8[PX7[H\8;LT7;D^8KNV7KFZ8+JR7*R@AT=M*]@#"@0J@\(-0Q[$-0PHXR_J(VN]&gt;0X,Z]?PNU@(O]_(]&lt;X*^IL`_`^"]^'P&gt;&gt;F,;\2(\57-5U!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name=".net.MSChart" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Item" Type="Folder">
+			<Item Name="Font.vi" Type="VI" URL="../.net.MSChart/Item/Font.vi"/>
+			<Item Name="Color.vi" Type="VI" URL="../.net.MSChart/Item/Color.vi"/>
+			<Item Name="KnownColor.vi" Type="VI" URL="../.net.MSChart/Item/KnownColor.vi"/>
+		</Item>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="subCtrls" Type="Folder">
+				<Item Name="Border.ctl" Type="VI" URL="../.net.MSChart/Controls/Border.ctl"/>
+				<Item Name="3D.ctl" Type="VI" URL="../.net.MSChart/Controls/3D.ctl"/>
+				<Item Name="Color.ctl" Type="VI" URL="../.net.MSChart/Controls/Color.ctl"/>
+				<Item Name="Font.ctl" Type="VI" URL="../.net.MSChart/Controls/Font.ctl"/>
+				<Item Name="Marker.ctl" Type="VI" URL="../.net.MSChart/Controls/Marker.ctl"/>
+				<Item Name="Background.ctl" Type="VI" URL="../.net.MSChart/Controls/Background.ctl"/>
+			</Item>
+			<Item Name="Chart.ctl" Type="VI" URL="../.net.MSChart/Controls/Chart.ctl"/>
+			<Item Name="ChartArea.ctl" Type="VI" URL="../.net.MSChart/Controls/ChartArea.ctl"/>
+			<Item Name="Legend.ctl" Type="VI" URL="../.net.MSChart/Controls/Legend.ctl"/>
+			<Item Name="Title.ctl" Type="VI" URL="../.net.MSChart/Controls/Title.ctl"/>
+			<Item Name="Series.ctl" Type="VI" URL="../.net.MSChart/Controls/Series.ctl"/>
+			<Item Name="Axis.ctl" Type="VI" URL="../.net.MSChart/Controls/Axis.ctl"/>
+		</Item>
+		<Item Name="Op" Type="Folder">
+			<Item Name="Add" Type="Folder">
+				<Item Name="Add ChartArea.vi" Type="VI" URL="../.net.MSChart/Op/Add/Add ChartArea.vi"/>
+				<Item Name="Add Title.vi" Type="VI" URL="../.net.MSChart/Op/Add/Add Title.vi"/>
+				<Item Name="Add Legend.vi" Type="VI" URL="../.net.MSChart/Op/Add/Add Legend.vi"/>
+				<Item Name="Add Series.vi" Type="VI" URL="../.net.MSChart/Op/Add/Add Series.vi"/>
+			</Item>
+			<Item Name="Update" Type="Folder">
+				<Item Name="Update Chart.vi" Type="VI" URL="../.net.MSChart/Op/Update/Update Chart.vi"/>
+				<Item Name="Update ChartArea.vi" Type="VI" URL="../.net.MSChart/Op/Update/Update ChartArea.vi"/>
+				<Item Name="Update Title.vi" Type="VI" URL="../.net.MSChart/Op/Update/Update Title.vi"/>
+				<Item Name="Update Legend.vi" Type="VI" URL="../.net.MSChart/Op/Update/Update Legend.vi"/>
+				<Item Name="Update Series.vi" Type="VI" URL="../.net.MSChart/Op/Update/Update Series.vi"/>
+				<Item Name="Update Axis.vi" Type="VI" URL="../.net.MSChart/Op/Update/Update Axis.vi"/>
+			</Item>
+			<Item Name="DataOp" Type="Folder">
+				<Item Name="Add Points to Series_DBL[].vi" Type="VI" URL="../.net.MSChart/Op/DataOp/Add Points to Series_DBL[].vi"/>
+				<Item Name="Add Points to Series_DBL-DBL-Name.vi" Type="VI" URL="../.net.MSChart/Op/DataOp/Add Points to Series_DBL-DBL-Name.vi"/>
+				<Item Name="Add Points to Series_DBL-DBL[].vi" Type="VI" URL="../.net.MSChart/Op/DataOp/Add Points to Series_DBL-DBL[].vi"/>
+				<Item Name="Add Points to Series_DBL.vi" Type="VI" URL="../.net.MSChart/Op/DataOp/Add Points to Series_DBL.vi"/>
+				<Item Name="Add Labeled Points To Series.vi" Type="VI" URL="../.net.MSChart/Op/DataOp/Add Labeled Points To Series.vi"/>
+			</Item>
+			<Item Name="Clear All.vi" Type="VI" URL="../.net.MSChart/Op/Clear All.vi"/>
+		</Item>
+	</Item>
+	<Item Name="_Support" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Update" Type="Folder">
+			<Item Name="UpdateChart.vi" Type="VI" URL="../_Support/UpdateChart.vi"/>
+			<Item Name="UpdateBorder.vi" Type="VI" URL="../_Support/UpdateBorder.vi"/>
+			<Item Name="UpdateChartArea.vi" Type="VI" URL="../_Support/UpdateChartArea.vi"/>
+			<Item Name="UpdateAxes.vi" Type="VI" URL="../_Support/UpdateAxes.vi"/>
+			<Item Name="UpdateTitle.vi" Type="VI" URL="../_Support/UpdateTitle.vi"/>
+			<Item Name="UpdateLegend.vi" Type="VI" URL="../_Support/UpdateLegend.vi"/>
+			<Item Name="UpdateSeries.vi" Type="VI" URL="../_Support/UpdateSeries.vi"/>
+		</Item>
+		<Item Name="SettingDlg.vi" Type="VI" URL="../_Support/SettingDlg.vi"/>
+		<Item Name="AddSingleSeries.vi" Type="VI" URL="../_Support/AddSingleSeries.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../_Support/Initialize.vi"/>
+	</Item>
+	<Item Name="Properites" Type="Folder">
+		<Item Name="Chart" Type="Folder">
+			<Item Name="Chart" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Chart (2)</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Chart</Property>
+				<Item Name="Chart Read.vi" Type="Property VI" URL="../Properties/Chart Read.vi"/>
+				<Item Name="Chart Write.vi" Type="Property VI" URL="../Properties/Chart Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="ChartArea" Type="Folder">
+			<Item Name="ChartArea" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ChartArea</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ChartArea</Property>
+				<Item Name="ChartArea Read.vi" Type="Property VI" URL="../Properties/ChartArea Read.vi"/>
+				<Item Name="ChartArea Write.vi" Type="Property VI" URL="../Properties/ChartArea Write.vi"/>
+			</Item>
+			<Item Name="ChartArea 3D" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ChartArea 3D</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ChartArea 3D</Property>
+				<Item Name="ChartArea 3D Read.vi" Type="Property VI" URL="../Properties/ChartArea 3D Read.vi"/>
+				<Item Name="ChartArea 3D Write.vi" Type="Property VI" URL="../Properties/ChartArea 3D Write.vi"/>
+			</Item>
+			<Item Name="ChartArea Background" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ChartArea BGKColor</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ChartArea Background</Property>
+				<Item Name="ChartArea Background Read.vi" Type="Property VI" URL="../Properties/ChartArea Background Read.vi"/>
+				<Item Name="ChartArea Background Write.vi" Type="Property VI" URL="../Properties/ChartArea Background Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Title" Type="Folder">
+			<Item Name="Title Name" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Title Name</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Title Name</Property>
+				<Item Name="Title Name Read.vi" Type="Property VI" URL="../Properties/Title Name Read.vi"/>
+				<Item Name="Title Name Write.vi" Type="Property VI" URL="../Properties/Title Name Write.vi"/>
+			</Item>
+			<Item Name="Title Docking" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Title Docking</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Title Docking</Property>
+				<Item Name="Title Docking Read.vi" Type="Property VI" URL="../Properties/Title Docking Read.vi"/>
+				<Item Name="Title Docking Write.vi" Type="Property VI" URL="../Properties/Title Docking Write.vi"/>
+			</Item>
+			<Item Name="Title Font" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Title Font</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Title Font</Property>
+				<Item Name="Title Font Read.vi" Type="Property VI" URL="../Properties/Title Font Read.vi"/>
+				<Item Name="Title Font Write.vi" Type="Property VI" URL="../Properties/Title Font Write.vi"/>
+			</Item>
+			<Item Name="Title Background" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Title BGKColor</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Title Background</Property>
+				<Item Name="Title Background Read.vi" Type="Property VI" URL="../Properties/Title Background Read.vi"/>
+				<Item Name="Title Background Write.vi" Type="Property VI" URL="../Properties/Title Background Write.vi"/>
+			</Item>
+			<Item Name="Title" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Title (2)</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Title</Property>
+				<Item Name="Title Read.vi" Type="Property VI" URL="../Properties/Title Read.vi"/>
+				<Item Name="Title Write.vi" Type="Property VI" URL="../Properties/Title Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Legend" Type="Folder">
+			<Item Name="Legend" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Legend (2)</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Legend</Property>
+				<Item Name="Legend Read.vi" Type="Property VI" URL="../Properties/Legend Read.vi"/>
+				<Item Name="Legend Write.vi" Type="Property VI" URL="../Properties/Legend Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Series" Type="Folder">
+			<Item Name="Series" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Series (2)</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Series</Property>
+				<Item Name="Series Read.vi" Type="Property VI" URL="../Properties/Series Read.vi"/>
+				<Item Name="Series Write.vi" Type="Property VI" URL="../Properties/Series Write.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Axes" Type="Folder">
+			<Item Name="Axes" Type="Property Folder">
+				<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Axes</Property>
+				<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Axes</Property>
+				<Item Name="Axes Read.vi" Type="Property VI" URL="../Properties/Axes Read.vi"/>
+				<Item Name="Axes Write.vi" Type="Property VI" URL="../Properties/Axes Write.vi"/>
+			</Item>
+		</Item>
+	</Item>
+	<Item Name="Ability" Type="Folder">
+		<Item Name="DefaultState.vi" Type="VI" URL="../Ability/DefaultState.vi"/>
+		<Item Name="Init.vi" Type="Ability VI" URL="../Ability/Init.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+		</Item>
+		<Item Name="Data.ctl" Type="Ability VI" URL="../Ability/Data.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+		</Item>
+		<Item Name="Facade.vi" Type="Ability VI" URL="../Ability/Facade.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+		</Item>
+		<Item Name="State.ctl" Type="Ability VI" URL="../Ability/State.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">State</Property>
+		</Item>
+		<Item Name="Uninit.vi" Type="Ability VI" URL="../Ability/Uninit.vi">
+			<Property Name="NI.XItem.Name" Type="Str">UnInit</Property>
+		</Item>
+	</Item>
+</XControl>
