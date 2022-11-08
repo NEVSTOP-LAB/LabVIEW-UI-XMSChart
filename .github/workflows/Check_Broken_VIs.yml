@@ -12,7 +12,7 @@ jobs:
   # This workflow contains a single job called "build"
   Check_Broken_VIs:
     # The type of runner that the job will run on
-    runs-on: [self-hosted, lv2017]
+    runs-on: [self-hosted, lv2014]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -21,11 +21,10 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - id: Check_Broken_VIs
-        uses: LV-APT/lvCICD@lv2014_support
+        uses: LV-APT/lvCICD@main
         with:
-          LabVIEW_Version: 2017
+          LabVIEW_Version: 2014
           Operation: VIAn_CheckBrokenVIs
           Parameter1: ${{ github.workspace }}
           Parameter2: NOPASSWORD
           Parameter3: YES
-          Parameter4: -placeContent
