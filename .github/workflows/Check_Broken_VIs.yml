@@ -21,7 +21,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - id: Check_Broken_VIs
-        uses: LV-APT/lvCICD@main
+        uses: LV-APT/lvCICD@33-the-set-output-command-is-deprecated-and-will-be-disabled-soon
         with:
           LabVIEW_Version: 2014
           Operation: VIAn_CheckBrokenVIs
